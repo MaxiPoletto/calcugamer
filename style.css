@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* ----------NAVEGADOR------------- */
+.navegador{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:  #676bb4  ;
+    height: 4em;
+    
+}
+.navegador__link{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+
+}
+
+
+/* ----------MAIN---------------- */
+main{
+/* background: #bdc3c7;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to bottom, #2c3e50, #bdc3c7); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+background-color:  #212224;
+}
+/* ----------TITULO-------------- */
+
+.ppal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.ppal__titulo{
+    color: white;
+    margin-top: 2em;
+    font-size: 3em;
+    
+    
+}
+.ppal__texto{
+    color:white;
+    margin-top: 2em;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+/* -----------TIENDA-------------- */
+.dolaramano{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.linkBanco{
+    text-decoration: underline overline white;
+    font-size: 1em;
+    margin-bottom: 3em;
+    color:white;
+    padding: 0.5em;
+}
+.dolaramano__h2{
+    color:white;
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+::placeholder{
+    color:white
+}
+.formulariopreciodolar{
+    border-top: 0;
+    border-left:0;
+    border-right: 0;
+    outline: none;
+    background-color:  #676bb4 ;
+    font-size: 100%;
+    height: 2em;
+    width: 5em;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    border-radius: 4em;
+    border: solid 3px #a56ec1
+}
+
+.tarjeta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center ;
+}
+.tarjetaComp{
+    height: 28em;
+    width: 20em;
+    margin: 4em;
+    border: solid 3px   #a56ec1 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: #676bb4 ;
+    color: white;
+    border-radius: 4em;
+}
+.tarjeta__logo{
+    width: 5em;
+    height: 5em;
+}
+.tarjeta__nintendo__logo{
+    width: 10em;
+    
+}
+
+.tarjeta__steam__titulo{
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.formularioprecio{
+    border-top: 0;
+    border-left:0;
+    border-right: 0;
+    outline: none;
+    background-color: #212224;
+    font-size: 100%;
+    height: 2em;
+    width: 5em;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    border-radius: 4em;
+    border: solid 3px #a56ec1
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+}
+
+.textomoneda{
+    font-size: 1.5em;
+}
+
+.tarjeta__total{
+    font-size: 1.5em;
+    font-weight: 700;
+    width: 50%;
+    text-align: center;
+
+}
+
+
+
+
+/* FOOTER */
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #676bb4 ;
+}
+
+.foot__tit{
+    margin: 1em;
+    color: white;
+}
+.foot__tex{
+    margin: 1em;
+    color:white;
+}
+
+
+
+
+/* ----------------------------------------------------------------- */
+.bodydon{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.donacion__titulo{
+    margin-top: 4em;
+    color: white;
+}
+.donaciones{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto
+
+}
+/* .donacion__link{
+    height: 14em;
+    width: 28em;
+    margin: 6em;
+    border: solid 3px #a56ec1 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color:#676bb4;
+    color: white;
+} */
+.link{
+    text-decoration: overline underline white;
+    color: white;
+    font-size: 1em;
+}
+.donaciones__link__texto{
+    font-size: 2em;
+}
+
+/* --------------------------------------------- */
+.botondonar{
+    height: 14em;
+    width: 28em;
+    margin-top:5em;
+    margin-left: 5em;
+    margin-bottom: 16em;
+    border: solid 3px #a56ec1 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color:#676bb4;
+    color: white;
+}
+
+
+
+
+
+@media (max-width: 768px){
+    .navegador__link{  
+        font-size: 0.8em;
+    }
+}
